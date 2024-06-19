@@ -1,0 +1,33 @@
+.card-container {
+    position: relative;
+}
+.card-container{
+    background-color: ghostwhite;
+
+}
+.card {
+    transition: width 0.3s, height 0.3s; /* Add transitions for width and height */
+    z-index: 1;
+    height: 250px;
+    overflow: hidden;
+}
+.nav-item.active{
+    color: var(--accent-color);
+}
+.card:hover {
+    cursor: pointer;
+    z-index: 2;
+    height: 65vh;
+    overflow: scroll;
+}
+/* You can include any custom styles here */
+
+/* Remove default margin and padding from rows */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+/* Remove default margin from cards */
+
